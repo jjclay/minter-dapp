@@ -7,38 +7,225 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "virtually black & white stickmen";
+const description = "Black or White themed stickmen with a speck of color";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
+
+
+  // background only
+  {
+    growEditionSizeTo: 1,
+    layersOrder: [
+      
+      { name: "white/theme color" },
+      { name: "white/background" },
+
+      { name: "white/white stickman arm left" },
+      { name: "white/white stickman arm right" },
+      { name: "white/white stickman body" },
+      { name: "white/white stickman eyes" },
+      { name: "white/white stickman head" },
+      { name: "white/white stickman leg left" },
+      { name: "white/white stickman leg right" },
+      { name: "white/white stickman mouth" },
+      
+    ],
+  },
+
+  // top bottom left right 32px
+  {
+    growEditionSizeTo: 2,
+    layersOrder: [
+      
+      { name: "white/theme color" },
+      { name: "white/background" },
+
+      { name: "white/locations/left 32" },
+      { name: "white/locations/right 32" },
+      { name: "white/locations/top 32" },
+      { name: "white/locations/bottom 32" },
+      
+      { name: "white/white stickman arm left" },
+      { name: "white/white stickman arm right" },
+      { name: "white/white stickman body" },
+      { name: "white/white stickman eyes" },
+      { name: "white/white stickman head" },
+      { name: "white/white stickman leg left" },
+      { name: "white/white stickman leg right" },
+      { name: "white/white stickman mouth" },
+      
+    ],
+  },
+
+  // top bottom left right 64px
+  {
+    growEditionSizeTo: 3,
+    layersOrder: [
+      
+      { name: "white/theme color" },
+      { name: "white/background" },
+
+      { name: "white/locations/left 64" },
+      { name: "white/locations/right 64" },
+      { name: "white/locations/top 64" },
+      { name: "white/locations/bottom 64" },
+      
+      { name: "white/white stickman arm left" },
+      { name: "white/white stickman arm right" },
+      { name: "white/white stickman body" },
+      { name: "white/white stickman eyes" },
+      { name: "white/white stickman head" },
+      { name: "white/white stickman leg left" },
+      { name: "white/white stickman leg right" },
+      { name: "white/white stickman mouth" },
+      
+    ],
+  },
+
+  // top bottom left right 32px on top of 64px
+  {
+    growEditionSizeTo: 4,
+    layersOrder: [
+      
+      { name: "white/theme color" },
+      { name: "white/background" },
+
+      { name: "white/locations/left 64" },
+      { name: "white/locations/right 64" },
+      { name: "white/locations/top 64" },
+      { name: "white/locations/bottom 64" },
+
+      { name: "white/locations/left 32" },
+      { name: "white/locations/right 32" },
+      { name: "white/locations/top 32" },
+      { name: "white/locations/bottom 32" },
+      
+      { name: "white/white stickman arm left" },
+      { name: "white/white stickman arm right" },
+      { name: "white/white stickman body" },
+      { name: "white/white stickman eyes" },
+      { name: "white/white stickman head" },
+      { name: "white/white stickman leg left" },
+      { name: "white/white stickman leg right" },
+      { name: "white/white stickman mouth" },
+      
+    ],
+  },
+
+  // frame
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      
+      { name: "white/theme color" },
+      { name: "white/background" },
+
+      { name: "white/frame" },
+      
+      { name: "white/white stickman arm left" },
+      { name: "white/white stickman arm right" },
+      { name: "white/white stickman body" },
+      { name: "white/white stickman eyes" },
+      { name: "white/white stickman head" },
+      { name: "white/white stickman leg left" },
+      { name: "white/white stickman leg right" },
+      { name: "white/white stickman mouth" },
+      
     ],
   },
+
+  // frame and center
+  {
+    growEditionSizeTo: 6,
+    layersOrder: [
+      
+      { name: "white/theme color" },
+      { name: "white/background" },
+
+      { name: "white/locations/center" },
+      { name: "white/frame" },
+      
+      { name: "white/white stickman arm left" },
+      { name: "white/white stickman arm right" },
+      { name: "white/white stickman body" },
+      { name: "white/white stickman eyes" },
+      { name: "white/white stickman head" },
+      { name: "white/white stickman leg left" },
+      { name: "white/white stickman leg right" },
+      { name: "white/white stickman mouth" },
+      
+    ],
+  },
+
+  // corners upper left lower right
+  {
+    growEditionSizeTo: 7,
+    layersOrder: [
+      
+      { name: "white/theme color" },
+      { name: "white/background" },
+
+      { name: "white/locations/corner upper left" },
+      { name: "white/locations/corner lower right" },
+      
+      { name: "white/white stickman arm left" },
+      { name: "white/white stickman arm right" },
+      { name: "white/white stickman body" },
+      { name: "white/white stickman eyes" },
+      { name: "white/white stickman head" },
+      { name: "white/white stickman leg left" },
+      { name: "white/white stickman leg right" },
+      { name: "white/white stickman mouth" },
+      
+    ],
+  },
+
+  // corners upper left upper right lower left lower right
+  {
+    growEditionSizeTo: 8,
+    layersOrder: [
+      
+      { name: "white/theme color" },
+      { name: "white/background" },
+
+      { name: "white/locations/corner upper left" },
+      { name: "white/locations/corner upper right" },
+      { name: "white/locations/corner lower left" },
+      { name: "white/locations/corner lower right" },
+      
+      { name: "white/white stickman arm left" },
+      { name: "white/white stickman arm right" },
+      { name: "white/white stickman body" },
+      { name: "white/white stickman eyes" },
+      { name: "white/white stickman head" },
+      { name: "white/white stickman leg left" },
+      { name: "white/white stickman leg right" },
+      { name: "white/white stickman mouth" },
+      
+    ],
+  },
+
+
+
+
+  
 ];
 
-const shuffleLayerConfigurations = true;
+const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
 const format = {
-  width: 512,
+  width: 384,
   height: 512,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://virtuallyblackandwhite.art", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -49,22 +236,22 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'CRYPTOPUNKS';
-const CONTRACT_SYMBOL = 'CP';
+const CONTRACT_NAME = 'virtually black & white stickmen';
+const CONTRACT_SYMBOL = 'VBWSTICK';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = 'YOUR WALLET ADDRESS HERE';
-const TREASURY_ADDRESS = 'YOUR WALLET ADDRESS HERE';
+const OWNER_ADDRESS = '0x10E3A26C7Cb91Ba4a03b1E5322e662E4457B67F2';
+const TREASURY_ADDRESS = '0x10E3A26C7Cb91Ba4a03b1E5322e662E4457B67F2';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = .001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-04-08T11:30:48+07:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xd8B808A887326F45B2D0cd999709Aa6264CeF919"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x10E3A26C7Cb91Ba4a03b1E5322e662E4457B67F2"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
@@ -73,7 +260,7 @@ const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "REPLACE THIS"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.

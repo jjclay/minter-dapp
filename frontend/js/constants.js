@@ -2,8 +2,8 @@ const contractAddress = "0x0f3dbc253C10C29fBa670bF86e72c6B6Ff3dc3Cf"; //Replace 
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Virtually Black & White NFT Project!!";
-const welcome_h2 = "Connect to your wallet to Get Started";
-const welcome_p = 'A unique collection of virtually black & white stickmen';
+const welcome_h2 = "Connect to MetaMask to Get Started";
+const welcome_p = 'Welcome to the Virtually Black & White Stickmen Collection';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";

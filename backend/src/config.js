@@ -17,7 +17,7 @@ const layerConfigurations = [
 
   // background only
   {
-    growEditionSizeTo: 1,
+    growEditionSizeTo: 2,
     layersOrder: [
       
       { name: "white/theme color" },
@@ -37,7 +37,7 @@ const layerConfigurations = [
 
   // top bottom left right 32px
   {
-    growEditionSizeTo: 2,
+    growEditionSizeTo: 4,
     layersOrder: [
       
       { name: "white/theme color" },
@@ -62,7 +62,7 @@ const layerConfigurations = [
 
   // top bottom left right 64px
   {
-    growEditionSizeTo: 3,
+    growEditionSizeTo: 8,
     layersOrder: [
       
       { name: "white/theme color" },
@@ -87,7 +87,7 @@ const layerConfigurations = [
 
   // top bottom left right 32px on top of 64px
   {
-    growEditionSizeTo: 4,
+    growEditionSizeTo: 12,
     layersOrder: [
       
       { name: "white/theme color" },
@@ -117,7 +117,7 @@ const layerConfigurations = [
 
   // frame
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 13,
     layersOrder: [
       
       { name: "white/theme color" },
@@ -139,7 +139,7 @@ const layerConfigurations = [
 
   // frame and center
   {
-    growEditionSizeTo: 6,
+    growEditionSizeTo: 14,
     layersOrder: [
       
       { name: "white/theme color" },
@@ -162,7 +162,7 @@ const layerConfigurations = [
 
   // corners upper left lower right
   {
-    growEditionSizeTo: 7,
+    growEditionSizeTo: 15,
     layersOrder: [
       
       { name: "white/theme color" },
@@ -185,7 +185,7 @@ const layerConfigurations = [
 
   // corners upper left upper right lower left lower right
   {
-    growEditionSizeTo: 8,
+    growEditionSizeTo: 16,
     layersOrder: [
       
       { name: "white/theme color" },

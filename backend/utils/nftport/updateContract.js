@@ -15,6 +15,7 @@
   } = require(`${basePath}/utils/functions/fetchWithRetry.js`);
   let {
     CHAIN,
+    MINT_PRICE,
     PUBLIC_MINT_START_DATE,
     PRESALE_MINT_START_DATE,
     CONTRACT_ADDRESS,
@@ -23,7 +24,6 @@
     ROYALTY_SHARE,
     ROYALTY_ADDRESS,
     PRESALE_WHITELISTED_ADDRESSES,
-    MINT_PRICE,
   } = require(`${basePath}/src/config.js`);
 
   const contract = {

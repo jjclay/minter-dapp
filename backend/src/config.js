@@ -239,8 +239,8 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 const CONTRACT_NAME = 'virtually black & white stickmen';
 const CONTRACT_SYMBOL = 'VBWSTICK';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x10E3A26C7Cb91Ba4a03b1E5322e662E4457B67F2';
-const TREASURY_ADDRESS = '0x10E3A26C7Cb91Ba4a03b1E5322e662E4457B67F2';
+const OWNER_ADDRESS = '0x919462C6305b228195DdCE4C109a6f9b141B3796';
+const TREASURY_ADDRESS = '0x919462C6305b228195DdCE4C109a6f9b141B3796';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = .001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -251,7 +251,7 @@ const PUBLIC_MINT_START_DATE = "2022-04-08T11:30:48+07:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x10E3A26C7Cb91Ba4a03b1E5322e662E4457B67F2"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x919462C6305b228195DdCE4C109a6f9b141B3796"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
